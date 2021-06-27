@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       // background: `#DCE4F2`,
-      marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
       height: `100vh`,
       display: "flex",
       justifyContent: "center",
