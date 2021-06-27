@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import {
   FacebookWithCircle,
   InstagramWithCircle,
@@ -10,6 +9,7 @@ import {
   SpotifyWithCircle,
   Soundcloud,
 } from "@styled-icons/entypo-social"
+import SiteHeaderImage from '../images/siteheader.png'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -37,14 +37,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <StaticImage
-            src="../images/siteheader.png"
-            width={800}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
+          <img src={SiteHeaderImage} alt="" />
         </Link>
       </h1>
       <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
