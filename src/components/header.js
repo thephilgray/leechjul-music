@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import styled from 'styled-components'
 import {
   FacebookWithCircle,
   InstagramWithCircle,
@@ -10,6 +11,13 @@ import {
   Soundcloud,
 } from "@styled-icons/entypo-social"
 import SiteHeaderImage from '../images/siteheader.png'
+
+
+const StyledLink = styled(Link)`
+& + & {
+  margin-left: 1rem;
+}
+`;
 
 const Header = ({ siteTitle }) => (
   <header
@@ -40,13 +48,17 @@ const Header = ({ siteTitle }) => (
           <img src={SiteHeaderImage} alt="" />
         </Link>
       </h1>
-      <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
-        <InstagramWithCircle size="48" fill="#0E5FCF" title="Instagram"></InstagramWithCircle>
-        <FacebookWithCircle size="48" fill="#0E5FCF" title="Facebook"></FacebookWithCircle>
-        <TwitterWithCircle size="48" fill="#0E5FCF" title="Twitter"></TwitterWithCircle>
-        <YoutubeWithCircle size="48" fill="#0E5FCF" title="YouTube"></YoutubeWithCircle>
-        <SpotifyWithCircle size="48" fill="#0E5FCF" title="Spotify"></SpotifyWithCircle>
-        <Soundcloud size="48" fill="#0E5FCF" title="SoundCloud"></Soundcloud>
+      <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <StyledLink href="https://instagram.com/leechjulmusic/" target="_blank">
+          <InstagramWithCircle size="48" fill="#0E5FCF" title="Instagram"></InstagramWithCircle>
+        </StyledLink>
+        {/* <FacebookWithCircle size="48" fill="#0E5FCF" title="Facebook"></FacebookWithCircle> */}
+        <StyledLink href="https://twitter.com/leechjulmusic" target="_blank">
+          <TwitterWithCircle size="48" fill="#0E5FCF" title="Twitter"></TwitterWithCircle>
+        </StyledLink>
+        {/* <YoutubeWithCircle size="48" fill="#0E5FCF" title="YouTube"></YoutubeWithCircle> */}
+        {/* <SpotifyWithCircle size="48" fill="#0E5FCF" title="Spotify"></SpotifyWithCircle> */}
+        {/* <Soundcloud size="48" fill="#0E5FCF" title="SoundCloud"></Soundcloud> */}
       </div>
     </div>
   </header>
