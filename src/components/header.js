@@ -10,7 +10,6 @@ import {
   SpotifyWithCircle,
   // Soundcloud,
 } from "@styled-icons/entypo-social"
-import SiteHeaderImage from '../images/siteheader.png'
 
 
 const StyledLink = styled(Link)`
