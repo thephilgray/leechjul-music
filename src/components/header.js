@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img src={SiteHeaderImage} alt="" />
+          <img src="https://pg-image-host.s3.amazonaws.com/leechjul/siteheader.png" alt="New Single Hanmadi Out Now" />
         </Link>
       </h1>
       <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
