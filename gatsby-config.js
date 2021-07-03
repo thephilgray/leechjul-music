@@ -62,5 +62,14 @@ module.exports = {
         // enableWebVitalsTracking: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `questrial`,
+        ],
+        display: 'swap'
+      }
+    }
   ],
 }
