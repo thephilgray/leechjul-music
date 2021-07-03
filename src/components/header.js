@@ -3,12 +3,12 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import {
-  FacebookWithCircle,
+  // FacebookWithCircle,
   InstagramWithCircle,
   TwitterWithCircle,
-  YoutubeWithCircle,
+  // YoutubeWithCircle,
   SpotifyWithCircle,
-  Soundcloud,
+  // Soundcloud,
 } from "@styled-icons/entypo-social"
 import SiteHeaderImage from '../images/siteheader.png'
 
@@ -24,7 +24,6 @@ const Header = ({ siteTitle }) => (
     style={{
       // background: `#DCE4F2`,
       // marginBottom: `1.45rem`,
-      height: `100vh`,
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -39,7 +38,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          to="/"
+          href="https://open.spotify.com/track/6vlX81yZ6Ud3eOTGvZqFJ3?si=9907e3a2282f410d"
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -57,11 +56,13 @@ const Header = ({ siteTitle }) => (
           <TwitterWithCircle size="48" fill="#0E5FCF" title="Twitter"></TwitterWithCircle>
         </StyledLink>
         {/* <YoutubeWithCircle size="48" fill="#0E5FCF" title="YouTube"></YoutubeWithCircle> */}
-        {/* <SpotifyWithCircle size="48" fill="#0E5FCF" title="Spotify"></SpotifyWithCircle> */}
+        <StyledLink href="https://open.spotify.com/artist/5zsf66c4bHsiKuqGMATZSS?si=qdovnIBUR5CmOjtGf033Lg&dl_branch=1" target="_blank">
+          <SpotifyWithCircle size="48" fill="#0E5FCF" title="Spotify"></SpotifyWithCircle>
+        </StyledLink>
         {/* <Soundcloud size="48" fill="#0E5FCF" title="SoundCloud"></Soundcloud> */}
       </div>
     </div>
-  </header>
+  </header >
 )
 
 Header.propTypes = {
