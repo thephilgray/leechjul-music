@@ -24,15 +24,16 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div style={{ backgroundColor: '#DCE4F2A0' }}>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+    <div style={{ backgroundColor: '#052E69' }}>
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          // padding: `0 1.0875rem 1.45rem`,
+          backgroundColor: '#DCE4F2',
+          padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main>{children}</main>
         {/* <footer
           style={{
