@@ -6,7 +6,7 @@ import {
   // FacebookWithCircle,
   InstagramWithCircle,
   TwitterWithCircle,
-  // YoutubeWithCircle,
+  YoutubeWithCircle,
   SpotifyWithCircle,
   // Soundcloud,
 } from "@styled-icons/entypo-social"
@@ -54,7 +54,9 @@ const Header = ({ siteTitle }) => (
         <StyledLink href="https://twitter.com/leechjulmusic" target="_blank">
           <TwitterWithCircle size="48" fill="#0E5FCF" title="Twitter"></TwitterWithCircle>
         </StyledLink>
-        {/* <YoutubeWithCircle size="48" fill="#0E5FCF" title="YouTube"></YoutubeWithCircle> */}
+        <StyledLink href="https://www.youtube.com/channel/UCzsdTLEJwLLPF1KU0gmjURQ" target="_blank">
+          <YoutubeWithCircle size="48" fill="#0E5FCF" title="YouTube"></YoutubeWithCircle>
+        </StyledLink>
         <StyledLink href="https://open.spotify.com/artist/5zsf66c4bHsiKuqGMATZSS?si=qdovnIBUR5CmOjtGf033Lg&dl_branch=1" target="_blank">
           <SpotifyWithCircle size="48" fill="#0E5FCF" title="Spotify"></SpotifyWithCircle>
         </StyledLink>
