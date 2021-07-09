@@ -20,7 +20,7 @@ const IndexPage = () => (
     <h2>About</h2>
     <p>Leechjul is the alias for Washington, DC-based singer/songwriter Cheongah Gray and the name of her musical project with husband and multi-instrumentalist Phil Gray. With original songs in Korean and English, and inspired by a range of shared influences including 60s/70s and contemporary indie folk and psychedelic, deep cuts of classic R&B and soul, French disco funk, K-pop, and Korean trot, the duo aims to craft a sound that is both emotionally intelligent and raw and with a feeling of looking back and reflecting while simultaneously giving in to the physical urge to move forward.</p>
     <h2>Releases</h2>
-    <YouTubeEmbed youtubeId="cUOFIw6_gPs" title="hanmadi by leechjul"></YouTubeEmbed>
+    <YouTubeEmbed youtubeId="https://www.youtube.com/watch?v=nJmJHFEFSnE&t=5s" title="hanmadi by leechjul"></YouTubeEmbed>
 
   </Layout>
 )
