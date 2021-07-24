@@ -3,6 +3,8 @@ module.exports = {
     title: `leechjul`,
     description: `official site of leechjul music.`,
     author: `@thephilgray`,
+    url: "https://leechjul.com",
+    twitterUsername: "@leechjulmusic",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

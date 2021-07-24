@@ -12,7 +12,7 @@ const StyledSection = styled.section`padding-bottom: 1rem;`;
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Leechjul music" />
     {/* <StaticImage
       src="../images/Instagram5.png"
       width={300}
