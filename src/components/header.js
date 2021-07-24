@@ -37,13 +37,13 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          href="https://open.spotify.com/track/6vlX81yZ6Ud3eOTGvZqFJ3?si=9907e3a2282f410d"
+          href="https://distrokid.com/hyperfollow/leechjul/why-cant-i-be-the-one"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
-          <img src="https://pg-image-host.s3.amazonaws.com/leechjul/siteheader.png" alt="New Single Hanmadi Out Now" />
+          <img src="https://pg-image-host.s3.amazonaws.com/leechjul/siteheader.png" alt="New Single Out August 6" />
         </Link>
       </h1>
       <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
