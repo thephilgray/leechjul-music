@@ -19,6 +19,8 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
+            keywords
+            twitterUsername
           }
         }
       }
@@ -58,7 +60,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: site.siteMetadata?.twitterUsername || ``,
         },
         {
           name: `twitter:title`,
@@ -67,6 +69,10 @@ function Seo({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: "keywords",
+          content: site.siteMetadata.keywords.join(","),
         },
       ].concat(meta)}
     />

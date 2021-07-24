@@ -5,6 +5,7 @@ module.exports = {
     author: `@thephilgray`,
     url: "https://leechjul.com",
     twitterUsername: "@leechjulmusic",
+    keywords: ['indie music', 'new indie artists', 'korean american music', 'korean indie', 'indie pop', 'art pop']
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
