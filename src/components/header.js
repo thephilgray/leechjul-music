@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          href="https://distrokid.com/hyperfollow/leechjul/why-cant-i-be-the-one"
+          href="https://open.spotify.com/album/2A6g1dytnPKKaVyVmazY3X?si=xsNEmykiRTG7QUloxm3gXw&dl_branch=1"
           style={{
             color: `white`,
             textDecoration: `none`,

@@ -31,6 +31,7 @@ const IndexPage = () => (
     </StyledSection>
     <StyledSection>
       <h2>Releases</h2>
+      <YouTubeEmbed youtubeId="ohhZrg3Rgwo" title="why can't I be the one by leechjul"></YouTubeEmbed>
       <YouTubeEmbed youtubeId="nJmJHFEFSnE" title="hanmadi by leechjul"></YouTubeEmbed>
     </StyledSection>
     <Helmet>

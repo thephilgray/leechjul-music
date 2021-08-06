@@ -8,6 +8,7 @@ const YouTubeEmbed = ({ youtubeId, title }) => {
         position: "relative",
         paddingBottom: "56.25%" /* 16:9 */,
         paddingTop: 25,
+        marginBottom: 25,
         height: 0
       }}
     >
