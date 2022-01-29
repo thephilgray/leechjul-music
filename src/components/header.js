@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img src="https://pg-image-host.s3.amazonaws.com/leechjul/siteheader.png" alt="New Single Out August 6" />
+          <img src="https://d3krscvaj0o6p7.cloudfront.net/leechjul/siteheader.png" alt="Tunnel EP Out February 11" />
         </Link>
       </h1>
       <div style={{ maxWidth: "600", display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
