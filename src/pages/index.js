@@ -31,6 +31,11 @@ const IndexPage = () => (
     </StyledSection>
     <StyledSection>
       <h2>Releases</h2>
+      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+        <iframe style={{ margin: "1em auto", textAlign: "center", border: 0, width: "350px", height: "621px" }} src="https://bandcamp.com/EmbeddedPlayer/album=610546101/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/">
+          <a href="https://leechjul.bandcamp.com/album/tunnel">Tunnel by Leechjul</a>
+        </iframe>
+      </div>
       <YouTubeEmbed youtubeId="ohhZrg3Rgwo" title="why can't I be the one by leechjul"></YouTubeEmbed>
       <YouTubeEmbed youtubeId="nJmJHFEFSnE" title="hanmadi by leechjul"></YouTubeEmbed>
     </StyledSection>
